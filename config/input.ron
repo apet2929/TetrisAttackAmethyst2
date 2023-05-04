@@ -1,0 +1,17 @@
+(
+    axes: {
+        "move_x": Emulated(
+            pos: Key(Right),
+            neg: Key(Left),
+        ),
+        "move_y": Emulated(
+            pos: Key(Down),
+            neg: Key(Up),
+        ),
+    },
+    actions: {
+        "flip": [[Key(Space)]],
+        "enter": [[Key(Return)]],
+        "quit": [[Key(Escape)]]
+    },
+)
